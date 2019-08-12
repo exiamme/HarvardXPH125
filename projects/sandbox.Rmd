@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+author: "Maxime L."
+date: "8/12/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Hash 2
+
+# Hash 1
+
+** Dot 2
+
+* Dot 1
+
+1. One
+
+The steps are as follows: 
+
+1. Download & Import the Data  
+2. Prepare the trainings & validation datasets
+3. Prepare a regularization & RMSE calculation function
+4. Try out different ranges of lambda
+5. Train the algorithm  
+6. Get RMSE for the validation dataset
