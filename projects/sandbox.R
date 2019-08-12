@@ -14,6 +14,7 @@ if(!require(data.table)) install.packages("data.table", repos = "http://cran.us.
 
 dl <- "/Users/ayumaki/Documents/max's/Dev/HarvardXPH125/projects/ml-10M100K/"
 
+
 ratings <- fread(text = gsub("::", "\t", readLines(paste(dl, "ratings.dat", sep = ""))),
                  col.names = c("userId", "movieId", "rating", "timestamp"))
 
