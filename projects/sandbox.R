@@ -12,7 +12,7 @@ if(!require(data.table)) install.packages("data.table", repos = "http://cran.us.
 # https://grouplens.org/datasets/movielens/10m/
 # http://files.grouplens.org/datasets/movielens/ml-10m.zip
 
-dl <- "/Users/ayumaki/Documents/max's/Dev/HarvardXPH125/projects/ml-10M100K/"
+dl <- "/Users/ayumaki/Documents/max's/Dev/HarvardXPH125/projects/MovieLens/ml-10M100K/"
 
 
 ratings <- fread(text = gsub("::", "\t", readLines(paste(dl, "ratings.dat", sep = ""))),
